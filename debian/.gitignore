@@ -1,0 +1,5 @@
+*.debhelper.log
+*.substvars
+casacore-data/
+debhelper-build-stamp
+files
