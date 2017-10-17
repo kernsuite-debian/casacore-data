@@ -1,3 +1,9 @@
+casacore-data (20171016-000001-1) xenial; urgency=medium
+
+  * new upstream release
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 17 Oct 2017 17:33:35 +0200
+
 casacore-data (20171002-000002-1) stable; urgency=medium
 
   * new upstream release
