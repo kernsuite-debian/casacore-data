@@ -1,9 +1,9 @@
 Source: casacore-data
 Section: libs
 Priority: extra
-Maintainer: Gijs Molenaar <gijs@pythonic.nl>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.4
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.7
 Homepage: http://casacore.github.io/casacore
 Vcs-Git: https://github.com/kernsuite-debian/casacore-data
 Vcs-Browser: https://github.com/kernsuite-debian/casacore-data
