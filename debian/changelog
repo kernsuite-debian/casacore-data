@@ -1,3 +1,9 @@
+casacore-data (20171127-000001-1) xenial; urgency=medium
+
+  * Imported Upstream version 20171127-000001
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 27 Nov 2017 09:01:44 +0200
+
 casacore-data (20171106-000001-1) xenial; urgency=medium
 
   * make debian files mit
