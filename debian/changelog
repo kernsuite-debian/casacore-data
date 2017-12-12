@@ -1,3 +1,11 @@
+casacore-data (20171211-000001-1) xenial; urgency=medium
+
+  * add update script
+  * try to fix signature
+  * Imported Upstream version 20171211-000001
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 12 Dec 2017 11:15:07 +0200
+
 casacore-data (20171127-000001-1) xenial; urgency=medium
 
   * Imported Upstream version 20171127-000001
