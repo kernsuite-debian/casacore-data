@@ -8,7 +8,8 @@ set -e
 set -v
 
 gbp import-orig --uscan
-GIT_AUTHOR_EMAIL=$DEBEMAIL GIT_AUTHOR_NAME=$DEBFULLNAME gbp dch -D xenial
+GIT_AUTHOR_EMAIL=$DEBEMAIL GIT_AUTHOR_NAME=$DEBFULLNAME gbp dch -S -a -Dxenial
+#GIT_AUTHOR_EMAIL=$DEBEMAIL GIT_AUTHOR_NAME=$DEBFULLNAME gbp dch -D xenial
 
 echo "ok cool. now edit debian/changelog and update the signature"
 
