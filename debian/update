@@ -7,7 +7,7 @@
 set -e 
 set -v
 
-gbp import-orig --uscan
+gbp import-orig --uscan --no-interactive
 gbp dch -D xenial
 
 VERSION_RAW=`cat debian/changelog | grep casacore-data | head -n 1 | awk '{print $2}'`
