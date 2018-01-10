@@ -7,6 +7,9 @@
 set -e 
 set -v
 
+export DEBEMAIL=packaging@kernsuite.info
+export DEBFULLNAME='KERN packaging'
+
 gbp import-orig --uscan --no-interactive
 gbp dch -D xenial
 
