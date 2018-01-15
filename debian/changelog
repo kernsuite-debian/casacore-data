@@ -1,3 +1,14 @@
+casacore-data (20180115-000002-1) xenial; urgency=medium
+
+  [ Gijs Molenaar ]
+  * force signature details
+  * we dont need that for making the package
+  * New upstream version 20180115-000002
+
+  [ KERN packaging ]
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 15 Jan 2018 09:07:12 +0200
+
 casacore-data (20180108-000001-1) xenial; urgency=medium
 
   [ Gijs Molenaar ]
