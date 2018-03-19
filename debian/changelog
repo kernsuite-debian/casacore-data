@@ -1,3 +1,13 @@
+casacore-data (20180319-000001-1) xenial; urgency=medium
+
+  [ Gijs Molenaar ]
+  * don't push here for now
+  * New upstream version 20180319-000001
+
+  [ KERN packaging ]
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 19 Mar 2018 13:03:42 +0200
+
 casacore-data (20180312-000001-1) xenial; urgency=medium
 
   [ Gijs Molenaar ]
