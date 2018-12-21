@@ -1,3 +1,10 @@
+casacore-data (20181217-000001-1kern1) bionic; urgency=medium
+
+  [ Gijs Molenaar ]
+  * make conflicting with debian packages
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 21 Dec 2018 11:20:59 +0200
+
 casacore-data (20181217-000001-1) xenial; urgency=medium
 
   [ Gijs Molenaar ]
