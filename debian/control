@@ -3,7 +3,6 @@ Section: libs
 Priority: extra
 Maintainer: KERN packaging <packaging@kernsuite.info>
 Build-Depends: debhelper (>= 9.0.0)
-#, git-buildpackage (>= 0.8.18)
 Standards-Version: 3.9.7
 Homepage: http://casacore.github.io/casacore
 Vcs-Git: https://github.com/kernsuite-debian/casacore-data
@@ -12,4 +11,11 @@ Vcs-Browser: https://github.com/kernsuite-debian/casacore-data
 Package: casacore-data
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: casacore-data-lines, casacore-data-sources, casacore-data-igrf, casacore-data-observatories, casacore-data-tai-utc
+Conflicts: casacore-data-lines, casacore-data-sources, casacore-data-igrf, casacore-data-observatories, casacore-data-tai-utc
+Provides: casacore-data-lines, casacore-data-sources, casacore-data-igrf, casacore-data-observatories, casacore-data-tai-utc
 Description: Casacore data files
+ These are taken from the ASTRON FTP server at:
+ .
+ ftp://ftp.astron.nl/outgoing/Measures/
+
