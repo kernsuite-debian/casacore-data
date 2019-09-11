@@ -1,3 +1,9 @@
+casacore-data (20190909-000001-1) bionic; urgency=medium
+
+  * New upstream version 20190909-000001
+
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 11 Sep 2019 12:00:15 +0200
+
 casacore-data (20190318-000001-2) bionic; urgency=medium
 
   * build for bionic
