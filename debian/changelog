@@ -1,3 +1,10 @@
+casacore-data (20200120-000001-1) bionic; urgency=medium
+
+  [ Gijs Molenaar ]
+  * New upstream version 20200120-000001
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 21 Jan 2020 09:46:52 +0100
+
 casacore-data (20190909-000001-1) bionic; urgency=medium
 
   * New upstream version 20190909-000001
