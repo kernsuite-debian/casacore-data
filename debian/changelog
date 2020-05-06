@@ -1,3 +1,11 @@
+casacore-data (20200505-160001-1) xenial; urgency=medium
+
+  [ Gijs Molenaar ]
+  * upload to kern-6 also
+  * New upstream version 20200505-160001
+
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 06 May 2020 09:37:43 +0200
+
 casacore-data (20200120-000001-1) bionic; urgency=medium
 
   [ Gijs Molenaar ]
