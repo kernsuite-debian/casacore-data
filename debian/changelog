@@ -4,7 +4,7 @@ casacore-data (20200526-160001-1) xenial; urgency=medium
   * enable passive mode
   * New upstream version 20200526-160001
 
- -- KERN packaging <packaging@kernsuite.info>  Wed, 27 May 2020 12:23:13 +0000
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 27 May 2020 12:24:56 +0000
 
 casacore-data (20200505-160001-2) bionic; urgency=medium
 
