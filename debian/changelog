@@ -1,3 +1,9 @@
+casacore-data (20201020-160001-3) focal; urgency=medium
+
+  * build for focal
+
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 21 Oct 2020 03:14:57 +0000
+
 casacore-data (20201020-160001-2) bionic; urgency=medium
 
   * build for bionic
