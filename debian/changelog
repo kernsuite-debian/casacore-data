@@ -1,3 +1,9 @@
+casacore-data (20210103-160001-2) bionic; urgency=medium
+
+  * build for bionic
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 04 Jan 2021 03:13:51 +0000
+
 casacore-data (20210103-160001-1) xenial; urgency=medium
 
   [ Gijs Molenaar ]
