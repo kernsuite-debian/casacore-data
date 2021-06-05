@@ -1,3 +1,10 @@
+casacore-data (20210604-160002-1) xenial; urgency=medium
+
+  [ Gijs Molenaar ]
+  * New upstream version 20210604-160002
+
+ -- KERN packaging <packaging@kernsuite.info>  Sat, 05 Jun 2021 03:13:20 +0000
+
 casacore-data (20210603-160001-3) focal; urgency=medium
 
   * build for focal
