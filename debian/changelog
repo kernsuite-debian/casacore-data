@@ -1,3 +1,12 @@
+casacore-data (20220116-160001-1) xenial; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * Don't commit to github
+  * updates
+  * New upstream version 20220116-160001
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 17 Jan 2022 12:01:29 +0000
+
 casacore-data (20210922-160001-3) focal; urgency=medium
 
   * build for focal
