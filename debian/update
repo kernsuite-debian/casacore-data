@@ -42,5 +42,6 @@ gbp buildpackage --git-tag
 #git push --all --follow-tags
 gbp buildpackage -S -sa
 dput -f ppa:kernsuite/kern-7 ../casacore-data_${VERSION}_source.changes
+dput -f ppa:kernsuite/kern-8 ../casacore-data_${VERSION}_source.changes
 dput -f ppa:kernsuite/kern-dev ../casacore-data_${VERSION}_source.changes
 
