@@ -1,3 +1,9 @@
+casacore-data (20220118-160001-2) focal; urgency=medium
+
+  * build for focal
+
+ --  <athanaseus@upload.kernsuite.info>  Thu, 20 Jan 2022 07:52:20 +0000
+
 casacore-data (20220118-160001-1) xenial; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
