@@ -1,8 +1,21 @@
+casacore-data (20220119-16000-1) focal; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * New upstream version 20220119-160001
+
+ -- KERN packaging <packaging@kernsuite.info>  Thu, 20 Jan 2022 08:06:59 +0000
+
+casacore-data (20220118-160001-3) focal; urgency=medium
+
+  * build for focal
+
+ -- KERN packaging <packaging@kernsuite.info>  Thu, 20 Jan 2022 08:06:26 +0000
+
 casacore-data (20220118-160001-2) focal; urgency=medium
 
   * build for focal
 
- --  <athanaseus@upload.kernsuite.info>  Thu, 20 Jan 2022 07:52:20 +0000
+ -- KERN packaging <packaging@kernsuite.info>  Thu, 20 Jan 2022 07:52:20 +0000
 
 casacore-data (20220118-160001-1) xenial; urgency=medium
 
