@@ -16,8 +16,8 @@ gbp dch -D ${DIST}
 VERSION_RAW=`cat debian/changelog | grep casacore-data | head -n 1 | awk '{print $2}'`
 VERSION=${VERSION_RAW:1:-1}
 #git commit debian/changelog -m "Release '${VERSION}' for ${DIST}"
-gbp buildpackage --git-tag --git-ignore-new
-gbp buildpackage -S -sa --git-ignore-new
+gbp buildpackage --git-tag
+gbp buildpackage -S -sa
 dput -f ppa:kernsuite/kern-3 ../casacore-data_${VERSION}_source.changes
 
 DIST=bionic
@@ -25,9 +25,9 @@ dch -D ${DIST} --force-distribution -U  "build for bionic"
 VERSION_RAW=`cat debian/changelog | grep casacore-data | head -n 1 | awk '{print $2}'` 
 VERSION=${VERSION_RAW:1:-1}
 #git commit debian/changelog -m "Release '${VERSION}' for ${DIST}"
-gbp buildpackage --git-tag --git-ignore-new
+gbp buildpackage --git-tag
 #git push --all --follow-tags
-gbp buildpackage -S -sa --git-ignore-new
+gbp buildpackage -S -sa
 dput -f ppa:kernsuite/kern-4 ../casacore-data_${VERSION}_source.changes
 dput -f ppa:kernsuite/kern-5 ../casacore-data_${VERSION}_source.changes
 dput -f ppa:kernsuite/kern-6 ../casacore-data_${VERSION}_source.changes
