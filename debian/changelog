@@ -1,3 +1,27 @@
+casacore-data (20220124-160001-1) xenial; urgency=medium
+
+  [ root ]
+  * Don't commit to github
+
+  [ Gijs Molenaar ]
+  * New upstream version 20210923-160001
+
+  [ root ]
+  * updates
+
+  [ Athanaseus Javas Ramaila ]
+  * New upstream version 20220115-160001
+  * New upstream release
+  * update
+  * New upstream version 20220116-160001
+  * update
+  * New upstream version 20220124-160001
+  * revert
+  * revert
+  * New upstream version 20220124-160001
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 25 Jan 2022 13:09:17 +0000
+
 casacore-data (20220119-160001-1) focal; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
