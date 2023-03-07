@@ -2,8 +2,8 @@ Source: casacore-data
 Section: libs
 Priority: extra
 Maintainer: KERN packaging <packaging@kernsuite.info>
-Build-Depends: debhelper (>=9)
-Standards-Version: 4.5.0
+Build-Depends: debhelper (>=11)
+Standards-Version: 4.6.1
 Homepage: http://casacore.github.io/casacore
 Vcs-Git: https://github.com/kernsuite-debian/casacore-data
 Vcs-Browser: https://github.com/kernsuite-debian/casacore-data
