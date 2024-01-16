@@ -44,3 +44,14 @@ gbp buildpackage -S -sa
 dput -f ppa:kernsuite/kern-7 ../casacore-data_${VERSION}_source.changes
 dput -f ppa:kernsuite/kern-8 ../casacore-data_${VERSION}_source.changes
 dput -f ppa:kernsuite/kern-dev ../casacore-data_${VERSION}_source.changes
+
+DIST=jammy
+dch -D ${DIST} --force-distribution -U  "build for ${DIST}"
+VERSION_RAW=`cat debian/changelog | grep casacore-data | head -n 1 | awk '{print $2}'`
+VERSION=${VERSION_RAW:1:-1}
+git commit debian/changelog -m "Release '${VERSION}' for ${DIST}"
+gbp buildpackage --git-tag
+#git push --all --follow-tags
+gbp buildpackage -S -sa
+dput -f ppa:kernsuite/kern-9 ../casacore-data_${VERSION}_source.changes
+dput -f ppa:kernsuite/kern-dev ../casacore-data_${VERSION}_source.changes
