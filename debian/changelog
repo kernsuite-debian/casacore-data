@@ -1,3 +1,33 @@
+casacore-data (20250109-160001-5) Noble; urgency=medium
+
+  * build for noble
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 10 Jan 2025 10:17:36 +0000
+
+casacore-data (20250109-160001-4) jammy; urgency=medium
+
+  * build for jammy
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 10 Jan 2025 10:17:36 +0000
+
+casacore-data (20250109-160001-3) focal; urgency=medium
+
+  * build for focal
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 10 Jan 2025 10:17:36 +0000
+
+casacore-data (20250109-160001-2) bionic; urgency=medium
+
+  * build for bionic
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 10 Jan 2025 10:17:36 +0000
+
+casacore-data (20250109-160001-1) xenial; urgency=medium
+
+  * build for xenial
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 10 Jan 2025 10:17:36 +0000
+
 casacore-data (20240115-160001-4) jammy; urgency=medium
 
   * build for jammy
