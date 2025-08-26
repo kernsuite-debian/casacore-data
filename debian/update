@@ -8,7 +8,7 @@ set -e
 set -v
 
 export DEBEMAIL=packaging@kernsuite.info
-export DEBFULLNAME='KERN packaging'
+export DEBFULLNAME='KERN packaging (KERN-6+ key)'
 
 DIST=xenial
 gbp import-orig --uscan --no-interactive
