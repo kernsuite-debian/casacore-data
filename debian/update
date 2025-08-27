@@ -58,7 +58,7 @@ dput -f ppa:kernsuite/kern-dev ../casacore-data_${VERSION}_source.changes
 
 DIST=noble
 dch -D ${DIST} --force-distribution -U  "build for ${DIST}"
-VERSION_RAW=cat debian/changelog | grep casacore-data | head -n 1 | awk '{print $2}'
+VERSION_RAW=`cat debian/changelog | grep casacore-data | head -n 1 | awk '{print $2}'`
 VERSION=${VERSION_RAW:1:-1}
 git commit debian/changelog -m "Release '${VERSION}' for ${DIST}"
 gbp buildpackage --git-tag
