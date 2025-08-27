@@ -1,3 +1,9 @@
+casacore-data (20250826-160001-5) noble; urgency=medium
+
+  * build for noble
+
+ -- KERN packaging (KERN-6+ key) <packaging@kernsuite.info>  Wed, 27 Aug 2025 08:16:03 +0000
+
 casacore-data (20250826-160001-4) jammy; urgency=medium
 
   * build for jammy
